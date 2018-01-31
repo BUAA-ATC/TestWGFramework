@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60A02B52020A08B00CCDD8C /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A0252202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.framework */; };
+		A60A02D12020A6C600CCDD8C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A02CD2020A5A200CCDD8C /* libsqlite3.tbd */; };
+		A60A02D22020A6D500CCDD8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A02CE2020A5AE00CCDD8C /* libz.tbd */; };
+		A60A02D42020A6DD00CCDD8C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A02D32020A6DD00CCDD8C /* libc++.tbd */; };
+		A66742A72020555000E78C21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66742A62020555000E78C21 /* AppDelegate.m */; };
+		A66742AA2020555000E78C21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66742A92020555000E78C21 /* ViewController.m */; };
+		A66742AD2020555000E78C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66742AB2020555000E78C21 /* Main.storyboard */; };
+		A66742AF2020555000E78C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66742AE2020555000E78C21 /* Assets.xcassets */; };
+		A66742B22020555000E78C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66742B02020555000E78C21 /* LaunchScreen.storyboard */; };
+		A66742B52020555000E78C21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66742B42020555000E78C21 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A60A0251202093AB00CCDD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60A024B202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BE536FF1D2499E500B60FAD;
+			remoteInfo = WhirlyGlobeMaplyComponent;
+		};
+		A60A0253202093AB00CCDD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60A024B202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BE537091D2499E500B60FAD;
+			remoteInfo = WhirlyGlobeMaplyComponentTests;
+		};
+		A60A025F2020984100CCDD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60A024B202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE536FE1D2499E500B60FAD;
+			remoteInfo = WhirlyGlobeMaplyComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A60A024B202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WhirlyGlobeMaplyComponent.xcodeproj; path = "WhirlyGlobe/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobeMaplyComponent.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		A60A02CD2020A5A200CCDD8C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A60A02CE2020A5AE00CCDD8C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A60A02D32020A6DD00CCDD8C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A66742A22020555000E78C21 /* TestWGFramwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWGFramwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66742A52020555000E78C21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A66742A62020555000E78C21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A66742A82020555000E78C21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A66742A92020555000E78C21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A66742AC2020555000E78C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A66742AE2020555000E78C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A66742B12020555000E78C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A66742B32020555000E78C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A66742B42020555000E78C21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A667429F2020555000E78C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60A02D22020A6D500CCDD8C /* libz.tbd in Frameworks */,
+				A60A02D12020A6C600CCDD8C /* libsqlite3.tbd in Frameworks */,
+				A60A02D42020A6DD00CCDD8C /* libc++.tbd in Frameworks */,
+				A60A02B52020A08B00CCDD8C /* WhirlyGlobeMaplyComponent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60A024C202093AB00CCDD8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60A0252202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.framework */,
+				A60A0254202093AB00CCDD8C /* WhirlyGlobeMaplyComponentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66742992020555000E78C21 = {
+			isa = PBXGroup;
+			children = (
+				A66742A42020555000E78C21 /* TestWGFramwork */,
+				A66742A32020555000E78C21 /* Products */,
+				A66742BB202055AA00E78C21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A66742A32020555000E78C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66742A22020555000E78C21 /* TestWGFramwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66742A42020555000E78C21 /* TestWGFramwork */ = {
+			isa = PBXGroup;
+			children = (
+				A60A024B202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.xcodeproj */,
+				A66742A52020555000E78C21 /* AppDelegate.h */,
+				A66742A62020555000E78C21 /* AppDelegate.m */,
+				A66742A82020555000E78C21 /* ViewController.h */,
+				A66742A92020555000E78C21 /* ViewController.m */,
+				A66742AB2020555000E78C21 /* Main.storyboard */,
+				A66742AE2020555000E78C21 /* Assets.xcassets */,
+				A66742B02020555000E78C21 /* LaunchScreen.storyboard */,
+				A66742B32020555000E78C21 /* Info.plist */,
+				A66742B42020555000E78C21 /* main.m */,
+			);
+			path = TestWGFramwork;
+			sourceTree = "<group>";
+		};
+		A66742BB202055AA00E78C21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A60A02D32020A6DD00CCDD8C /* libc++.tbd */,
+				A60A02CE2020A5AE00CCDD8C /* libz.tbd */,
+				A60A02CD2020A5A200CCDD8C /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A66742A12020555000E78C21 /* TestWGFramwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66742B82020555000E78C21 /* Build configuration list for PBXNativeTarget "TestWGFramwork" */;
+			buildPhases = (
+				A667429E2020555000E78C21 /* Sources */,
+				A667429F2020555000E78C21 /* Frameworks */,
+				A66742A02020555000E78C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60A02602020984100CCDD8C /* PBXTargetDependency */,
+			);
+			name = TestWGFramwork;
+			productName = TestWGFramwork;
+			productReference = A66742A22020555000E78C21 /* TestWGFramwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A667429A2020555000E78C21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Sunhy;
+				TargetAttributes = {
+					A66742A12020555000E78C21 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A667429D2020555000E78C21 /* Build configuration list for PBXProject "TestWGFramwork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A66742992020555000E78C21;
+			productRefGroup = A66742A32020555000E78C21 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A60A024C202093AB00CCDD8C /* Products */;
+					ProjectRef = A60A024B202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A66742A12020555000E78C21 /* TestWGFramwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A60A0252202093AB00CCDD8C /* WhirlyGlobeMaplyComponent.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WhirlyGlobeMaplyComponent.framework;
+			remoteRef = A60A0251202093AB00CCDD8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A60A0254202093AB00CCDD8C /* WhirlyGlobeMaplyComponentTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WhirlyGlobeMaplyComponentTests.xctest;
+			remoteRef = A60A0253202093AB00CCDD8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66742A02020555000E78C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66742B22020555000E78C21 /* LaunchScreen.storyboard in Resources */,
+				A66742AF2020555000E78C21 /* Assets.xcassets in Resources */,
+				A66742AD2020555000E78C21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A667429E2020555000E78C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66742AA2020555000E78C21 /* ViewController.m in Sources */,
+				A66742B52020555000E78C21 /* main.m in Sources */,
+				A66742A72020555000E78C21 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60A02602020984100CCDD8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WhirlyGlobeMaplyComponent;
+			targetProxy = A60A025F2020984100CCDD8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A66742AB2020555000E78C21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66742AC2020555000E78C21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A66742B02020555000E78C21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66742B12020555000E78C21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A66742B62020555000E78C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A66742B72020555000E78C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A66742B92020555000E78C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GVZ7SF9NBJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/WhirlyGlobe/**",
+					"$(CONFIGURATION_BUILD_DIR)",
+					"$(SRCROOT)/WhirlyGlobe/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent/include",
+					"$(SRCROOT)/WhirlyGlobe/WhirlyGlobeSrc/WhirlyGlobeLib/include",
+					"$(SRCROOT)/WhirlyGlobe/third-party",
+				);
+				INFOPLIST_FILE = TestWGFramwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunhongyi.TestWGFramwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A66742BA2020555000E78C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GVZ7SF9NBJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/WhirlyGlobe/**",
+					"$(CONFIGURATION_BUILD_DIR)",
+					"$(SRCROOT)/WhirlyGlobe/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent/include",
+					"$(SRCROOT)/WhirlyGlobe/WhirlyGlobeSrc/WhirlyGlobeLib/include",
+					"$(SRCROOT)/WhirlyGlobe/third-party",
+				);
+				INFOPLIST_FILE = TestWGFramwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunhongyi.TestWGFramwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A667429D2020555000E78C21 /* Build configuration list for PBXProject "TestWGFramwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66742B62020555000E78C21 /* Debug */,
+				A66742B72020555000E78C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66742B82020555000E78C21 /* Build configuration list for PBXNativeTarget "TestWGFramwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66742B92020555000E78C21 /* Debug */,
+				A66742BA2020555000E78C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A667429A2020555000E78C21 /* Project object */;
+}
